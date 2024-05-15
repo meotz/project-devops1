@@ -1,3 +1,10 @@
 Version 1
 Code fix 1
 Code fix 2
+
+
+dnf config-manager --add-repo=https://download.docker.com/linux/centos/docker-ce.repo
+
+dnf repolist
+
+dnf install docker-ce-3:23.0.6-1.el9 docker-ce-cli-1:23.0.6-1.el9 containerd.io -y
